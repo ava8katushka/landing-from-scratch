@@ -3,6 +3,7 @@ import "bulma/css/bulma.min.css";
 import Menu from "./components/Menu";
 import Navigation from "./components/Navigation";
 import Page from "./components/Page";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Page/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
